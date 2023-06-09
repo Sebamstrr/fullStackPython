@@ -15,10 +15,8 @@ class MathDojo:
 
 md = MathDojo()
 
-# Prueba del método sumar
-x = md.sumar(2).sumar(2, 5, 1).sumar(3, 4, 6).result
-print(x)  # debería imprimir 23
+x = md.sumar(2).sumar(2, 5, 1).sumar(4, 4, 6).result
+print(x)
 
-# Prueba del método restar
 y = md.restar(2).restar(3, 1).restar(5, 2, 4).result
-print(y)  # debería imprimir 6
+print(y)
