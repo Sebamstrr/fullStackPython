@@ -41,7 +41,6 @@ class Producto:
         print(f"Precio: ${self.precio}")
 
 
-# Prueba de las clases
 tienda = Tienda("Mi Tienda")
 
 producto1 = Producto("Producto 1", 10.0, "Categoría A")
@@ -64,4 +63,3 @@ print("---- Productos en la tienda ----")
 for producto in tienda.productos:
     producto.print_info()
     print()
-
