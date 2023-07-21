@@ -33,7 +33,7 @@ guido.hacer_depósito(100)
 print(guido.name)
 print(monty.name)
 print(f"bueno pal basquet el {seba.name}")
-print(f"bueno pa fumar el {maty.name}")
+print(f"bueno pa jugar el {maty.name}")
 print(f"mi correo es {matias.name}")
 
 

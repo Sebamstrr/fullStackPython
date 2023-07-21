@@ -16,4 +16,4 @@ class Usuario:
         return self
 
 guido = Usuario("Guido")
-guido.hacer_deposito(100).hacer_deposito(200).hacer_deposito(300).hacer_retiro(50).mostrar_balance_usuario()
+guido.hacer_deposito(110).hacer_deposito(200).hacer_deposito(200).hacer_retiro(50).mostrar_balance_usuario()
